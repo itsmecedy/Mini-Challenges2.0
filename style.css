@@ -19,16 +19,18 @@ body {
   height: 100vh;
 }
 
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
 nav {
   text-align: center;
   background-color: whitesmoke;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 1rem 2rem;
-}
-nav label {
-  font-size: 32px;
-  font-weight: bold;
 }
 nav ul {
   list-style: none;
