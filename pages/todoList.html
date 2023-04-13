@@ -6,10 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
     <link rel="stylesheet" href="../style.css" />
+    <script defer src="/script.js"></script>
   </head>
   <body>
     <div class="wrapper">
-      <h1>To Do List</h1>
+      <div class="container">
+        <h1>To Do List</h1>
+        <input
+          id="inputField"
+          type="text"
+          placeholder="What do you have planned? "
+        />
+        <button class="add-btn" id="addBtn">Add</button>
+      </div>
+      <div class="task-container" id="taskContainer">
+        <!-- <div class="task">
+          <input type="checkbox" id="checkbox" />
+          <p class="todo-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+            perferendis totam ipsum quasi facilis magnam. Error numquam non
+            nostrum quis sed deserunt modi facilis porro. Tempora quasi quo in
+            temporibus.
+          </p>
+        </div> -->
+      </div>
+      <h1>Completed Task</h1>
+      <div class="completed"></div>
     </div>
   </body>
 </html>
